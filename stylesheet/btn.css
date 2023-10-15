@@ -1,0 +1,28 @@
+.btn-gradient {
+  color: white;
+  background: rgb(107, 39, 240);
+  background: linear-gradient(
+    243deg,
+    rgba(107, 39, 240, 1) 0%,
+    rgba(50, 181, 255, 1) 100%
+  );
+  border-radius: 35px;
+  border: unset;
+  display: flex;
+  padding: 0.5rem 2rem;
+  display: flex;
+  align-items: center;
+  transition: all 450ms ease;
+}
+
+.btn-gradient:hover {
+  background: rgb(107, 39, 240);
+  background: linear-gradient(
+    -243deg,
+    rgba(107, 39, 240, 1) 0%,
+    rgba(50, 181, 255, 1) 100%
+  );
+  transition: all 450ms ease;
+  color: white;
+  text-decoration: unset;
+}

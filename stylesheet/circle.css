@@ -1,0 +1,21 @@
+.circle-wrapper {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+}
+
+.circle--top-right {
+  position: absolute;
+  right: -17rem;
+  top: -20rem;
+  z-index: -1;
+}
+
+@media (min-width: 1200px) {
+  .circle--top-right {
+    width: 50%;
+  }
+}

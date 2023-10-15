@@ -1,0 +1,23 @@
+:root {
+  --color-primary: #32b5ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "kanit" !important;
+}
+
+.content {
+  margin: 5rem 0px 5rem;
+}
+
+@media (min-width: 992px) {
+  .content {
+    margin: 10rem 0px 5rem;
+  }
+}

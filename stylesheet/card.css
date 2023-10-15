@@ -1,0 +1,36 @@
+/* card relate */
+
+.card.card--relate {
+  border: unset;
+  background-color: transparent;
+}
+
+.card.card--relate .card-img-top {
+  border-radius: 18px;
+}
+
+.card.card--relate .card-body .card-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card.card--relate .card-body .card-title {
+  color: white;
+}
+
+.card.card--relate .card-body .card-text {
+  color: white;
+}
+
+.card.card--relate .card-body a {
+  padding: 0.4rem 2rem;
+  border-radius: 35px;
+  background-color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+}
+
+.card.card--relate .card-body a:hover {
+  transition: all 250ms ease;
+  background-color: transparent;
+  border: 1px solid var(--color-primary);
+}
