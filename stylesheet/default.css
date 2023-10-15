@@ -1,5 +1,6 @@
 :root {
-  --color-primary: #32b5ff;
+  --color-primary: #E5D9C3;
+  --color-secondary: #ffffff;
 }
 
 * {
@@ -12,12 +13,24 @@ body {
   font-family: "kanit" !important;
 }
 
-.content {
-  margin: 5rem 0px 5rem;
+h1 , .h1 {
+  position: relative;
+  font-size: 2.5rem!important;
+  margin-bottom: 1.25rem!important;
 }
 
-@media (min-width: 992px) {
+h3 , .h3 {
+  font-size: 1.25rem!important;
+}
+
+h2 , .h2 {
+  font-size: 1.5rem!important;
+}
+
+
+
+/* @media (min-width: 992px) {
   .content {
     margin: 10rem 0px 5rem;
   }
-}
+} */
