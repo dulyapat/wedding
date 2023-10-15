@@ -1,6 +1,9 @@
 :root {
   --color-primary: #E5D9C3;
   --color-secondary: #ffffff;
+  --color-third: #D1AA94;
+  --color-fouth: #F0DDC2;
+  --color-five: #B8C6CF;
 }
 
 * {
@@ -25,6 +28,25 @@ h3 , .h3 {
 
 h2 , .h2 {
   font-size: 1.5rem!important;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.title::after {
+    content: '';
+    bottom: 10px;
+    border-radius: 15px;
+    position: absolute;
+    width: 3rem;
+    height: 0.25rem;
+    background-color: var(--color-third);
 }
 
 

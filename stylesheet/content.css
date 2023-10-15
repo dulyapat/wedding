@@ -1,6 +1,10 @@
 .content__banner {
     position: relative;
     min-height: 100vh;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 2rem;
 }
 
 .content__banner::after {
@@ -33,4 +37,97 @@
   justify-content: center;
   position: relative;
   z-index: 1;
+}
+
+.content__date {
+    color: var(--color-secondary);
+    border-radius: 15px;
+    padding: 0.25rem 1.25rem;
+    display: inline-flex;
+    background: linear-gradient(85deg, rgba(184,198,207,1) 0%, rgba(240,221,194,1) 100%);
+    font-weight: 500;
+    margin: 1rem 0;
+    font-size: 19px;
+}
+
+.content__box {
+    padding: 1rem;
+    position: relative;
+    margin: 0 0 2rem;
+}
+
+.content__box .content__wrapper {
+    position: relative;
+    padding: 0 1rem;
+}
+
+.content__box .content__wrapper::before {
+    content: '';
+    position: absolute;
+    left: 0rem;
+    top: 2.25rem;
+    width: 1px;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.content__box  .content__title {
+    left: -2.2rem;
+    position: relative;
+    color: var(--color-secondary);
+    font-size: 25px;
+    display: inline-flex;
+    background: linear-gradient(85deg, rgba(184,198,207,1) 0%, rgba(240,221,194,1) 100%);
+    padding: 0.25rem 1.75rem;
+    margin-bottom: 1rem;
+    border-radius: 15rem;
+}
+
+.content__time {
+    font-size: 18px;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.content__time::before {
+    content: '';
+    position: absolute;
+    width: 0.5rem;
+    height: 1px;
+    background-color: rgba(0,0,0,0.4);
+    left: -1rem;
+    top: 0.85rem;
+}
+
+.content__body {
+    margin-bottom: 2rem;
+}
+
+.content__text {
+    font-size: 17px;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .content__banner {
+        position: relative;
+        min-height: 100vh;
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+        overflow: hidden;
+        margin-bottom: 2rem;
+    }
+
+    .content__cover {
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        width: 200%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        left: -40%;
+        top: 0;
+      
+      }
+      
 }
