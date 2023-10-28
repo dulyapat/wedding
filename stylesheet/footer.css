@@ -1,5 +1,5 @@
 #footer {
-  background: linear-gradient(85deg, rgba(184,198,207,1) 0%, rgba(240,221,194,1) 100%);
+  background-color: var(--color-six);
   position: relative;
   margin: 2rem 0 0;
 }
@@ -12,7 +12,7 @@
   top: -20%;
   left: 0;
   clip-path: ellipse(65% 50% at 46% 90%);
-  background: linear-gradient(85deg, rgba(184,198,207,1) 0%, rgba(240,221,194,1) 100%);
+  background-color: var(--color-six);
 }
 
 .footer__content {
@@ -20,7 +20,6 @@
 }
 
 .footer__title {
-  color: var(--color-secondary);
   font-size: 20px;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }

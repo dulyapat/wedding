@@ -1,6 +1,6 @@
 .btn-gradient {
   color: var(--color-secondary);
-  background: var(--color-third);
+  background: var(--color-five);
   border-radius: 35px;
   border: unset;
   display: flex;
@@ -9,10 +9,12 @@
   border-radius: 25px!important;
   align-items: center;
   transition: all 450ms ease;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  outline: 0;
 }
 
 .btn-gradient:hover {
-  background: var(--color-third)!important;
+  background: var(--color-five)!important;
   transition: all 450ms ease;
   color: var(--color-secondary);
   text-decoration: unset;
