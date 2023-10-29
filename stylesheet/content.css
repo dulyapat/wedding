@@ -1,3 +1,8 @@
+.content {
+    overflow: hidden;
+    position: relative;
+}
+
 .content__banner {
     position: relative;
     min-height: 100vh;
@@ -16,6 +21,47 @@
   height: 100%;
   background-color: var(--color-secondary);
   opacity: 0.4;
+}
+
+.content__image-wrapper {
+    position: relative;
+}
+
+.content__image-design {
+    position: absolute;
+    -moz-transform: rotate(290deg);
+    -webkit-transform: rotate(290deg);
+    -o-transform: rotate(290deg);
+    -ms-transform: rotate(290deg);
+    transform: rotate(290deg);
+    width: 6rem;
+    right: 5rem;
+    bottom: -7rem;
+}
+
+.content__image-design-2 {
+    position: absolute;
+    -moz-transform: rotate(85deg);
+    -webkit-transform: rotate(85deg);
+    -o-transform: rotate(85deg);
+    -ms-transform: rotate(85deg);
+    transform: rotate(85deg);
+    width: 6rem;
+    right: 5rem;
+    bottom: -4rem;
+    z-index: 1;
+}
+
+.content__and-design {
+    font-family: hurricane;
+    font-size: 2.25rem!important;
+}
+
+.content__image-wrapper .content__image {
+    right: -6rem;
+    top: -11rem;
+    width: 15rem;
+    position: absolute;
 }
 
 .content__cover {
