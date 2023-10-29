@@ -52,6 +52,26 @@
     z-index: 1;
 }
 
+img.content__icon {
+    position: absolute;
+    right: -1.5rem;
+    width: 5.5rem;
+    bottom: -3rem;
+}
+
+.content__image-design-3 {
+    position: absolute;
+    -moz-transform: rotate(330deg);
+    -webkit-transform: rotate(330deg);
+    -o-transform: rotate(330deg);
+    -ms-transform: rotate(330deg);
+    transform: rotate(330deg);
+    width: 5rem;
+    right: 1rem;
+    bottom: -3rem;
+    z-index: 1;
+}
+
 .content__and-design {
     font-family: hurricane;
     font-size: 2.25rem!important;
@@ -72,6 +92,12 @@
   left: 0;
   top: 0;
 
+}
+
+.content__img-manasonry {
+    width: 100%;
+    height: auto;
+    padding: 0.3rem;
 }
 
 .content__content {
@@ -107,7 +133,7 @@
     background-color: var(--color-primary);
     padding: 1rem;
     color: black;
-    margin: 2rem 0;
+    margin: 1rem 0;
     border-radius: 5px;
     text-align: center;
     font-size: 18px;
@@ -198,7 +224,7 @@
 
 .content__gallery .content__theme{
     position: relative;
-    padding: 1rem 0 5rem;
+    padding: 1rem 0 3rem;
     margin: 4rem 0rem 0;
 }
 
