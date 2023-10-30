@@ -20,6 +20,19 @@
 }
 
 .footer__title {
+  text-align: center;
   font-size: 20px;
   margin-bottom: 0.5rem;
+}
+
+
+.footer__copyright {
+  background-color: var(--color-five);
+  padding: 0.5rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.footer__copyright p {
+  font-size: 0.8rem;
 }
