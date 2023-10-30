@@ -8,10 +8,6 @@
     <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="font/kanit/stylesheet.css" />
     <link rel="stylesheet" href="font/hurricane/stylesheet.css" />
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
-/>
     <!-- local -->
     <title>Wedding</title>
   </head>
@@ -67,13 +63,25 @@
                     <div class="content__location">
                       สถานที่ : วัดราชบพิธสถิตมหาสีมารามราชวรวิหาร
                     </div>
-                    - ทำบุญถวายสังฆทาน จำกัดคนได้แค่ 25 คน
+                    - ทำบุญถวายสังฆทาน
                   </div>
-                  <div class="content__map">
-                    <a target="_blank" href="https://maps.app.goo.gl/hsw1ZAu65FKbuR5R8?g_st=ic" class="btn btn-gradient">
-                      แผนที่ๆจอดรถ กดปุ่มนี้ <img class="btn__image" src="image/flower/flower-6.png" alt="">
-                    </a>
-                  </div>
+                  <div class="content__text">
+                    <div class="content__location">
+                      เดินทางโดยรถยนต์ส่วนตัว
+                    </div>
+                    <div class="content__map">
+                      <a target="_blank" href="https://maps.app.goo.gl/hsw1ZAu65FKbuR5R8?g_st=ic" class="btn btn-gradient mt-2">
+                        แผนที่ๆจอดรถ กดปุ่มนี้ <img class="btn__image" src="image/flower/flower-6.png" alt="">
+                      </a>
+                    </div>
+                  </div>               
+                  <!-- <div class="content__text">
+                    <div class="content__location">
+                      เดินทางโดยรถไฟฟ้า MRT
+                    </div>
+                    - รถไฟฟ้าใต้ดิน สถานีสามยอด ทางออก 3 ถนนอุณากรรณ <br>
+                    - เดินหรือนั่งแท๊กซี่มา
+                  </div> -->
                 </div>
 
                 <div class="content__body">
@@ -84,7 +92,7 @@
                     <div class="content__location">
                       สถานที่ : วัดราชบพิธสถิตมหาสีมารามราชวรวิหาร
                     </div>
-                    - ถ่ายรูปครอบครัวและเพื่อนๆด้านหน้า (มีช่างกล้อง)
+                    - ถ่ายรูปภาพครอบครัวและเพื่อนๆด้านหน้า
                   </div>
                 </div>
               </div> 
@@ -140,7 +148,45 @@
                 <div class="content__title">
                   Gallery
                 </div>
-                <div class="row no-gutters spotlight-group" data-masonry='{"percentPosition": true }'>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="grid spotlight-group">
+                      <div class="grid-sizer"></div>
+                      <div class="grid-item">
+                        <a class="spotlight" href="image/gallery/set-1/1.jpg">
+                          <img class="content__img-manasonry" src="image/gallery/set-1/1.jpg" alt="">
+                        </a> 
+                      </div>
+                      <div class="grid-item">
+                        <a class="spotlight" href="image/gallery/set-1/2.jpg">
+                          <img class="content__img-manasonry" src="image/gallery/set-1/2.jpg" alt="">
+                        </a> 
+                      </div>
+                      <div class="grid-item">
+                        <a class="spotlight" href="image/gallery/set-1/3.jpg">
+                          <img class="content__img-manasonry" src="image/gallery/set-1/3.jpg" alt="">
+                        </a> 
+                      </div>
+                      <div class="grid-item">
+                        <a class="spotlight" href="image/gallery/set-1/4.jpg">
+                          <img class="content__img-manasonry" src="image/gallery/set-1/4.jpg" alt="">
+                        </a> 
+                      </div>
+                      <div class="grid-item">
+                        <a class="spotlight" href="image/gallery/set-1/5.jpg">
+                          <img class="content__img-manasonry" src="image/gallery/set-1/5.jpg" alt="">
+                        </a> 
+                      </div>
+                      <div class="grid-item">
+                        <a class="spotlight" href="image/gallery/set-1/6.jpg">
+                          <img class="content__img-manasonry" src="image/gallery/set-1/6.jpg" alt="">
+                        </a> 
+                      </div>
+                     
+                    </div>
+                  </div>
+                </div>
+                <!-- <div class="row no-gutters spotlight-group" data-masonry='{"percentPosition": true }'>
                   <div class="col-6"> 
                     <a class="spotlight" href="image/gallery/set-1/1.jpg">
                       <img class="content__img-manasonry" src="image/gallery/set-1/1.jpg" alt="">
@@ -171,7 +217,7 @@
                       <img class="content__img-manasonry" src="image/gallery/set-1/6.jpg" alt="">
                     </a>               
                   </div>
-                </div>
+                </div> -->
               </div>
             </div> 
           </div>
@@ -415,15 +461,15 @@
   crossorigin="anonymous"
 ></script>
 <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
-
-<script src="vendor/spotlight/spotlight.bundle.js"></script>  
+<script src="vendor/spotlight/spotlight.bundle.js"></script> 
+<script src="vendor/imageloaded/imagesloaded.pkgd.min.js"></script>  
+<script src="vendor/manasory/masonry.pkgd.min.js"></script>  
 <!-- <script src="vendor/swiper/swiper-bundle.min.js"></script> -->
 <script src="https://kit.fontawesome.com/68e6e1d266.js" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 
 <!-- component js -->
-<script type="text/javascript" src="script/components/swiper.js"></script>
+<script type="text/javascript" src="script/components/manasory.js"></script>
+<!-- <script type="text/javascript" src="/script/components/form.js"></script> -->
 <script type="text/javascript" src="script/components/header.js"></script>
 <script type="text/javascript" src="script/components/footer.js"></script>
-<!-- <script type="text/javascript" src="/script/components/form.js"></script> -->
+
